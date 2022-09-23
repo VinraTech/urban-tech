@@ -244,7 +244,7 @@ class Cart_page extends HookConsumerWidget {
                             width: double.infinity,
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(
-                                  backgroundColor: totalprice.value != 0.0
+                                  primary: totalprice.value != 0.0
                                       ? Colors.red
                                       : Colors.grey),
                               onPressed: () async {

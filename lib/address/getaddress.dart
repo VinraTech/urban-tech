@@ -136,12 +136,12 @@ class GetAdresswidget extends HookConsumerWidget {
                   height: 35.h,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      foregroundColor: Colors.white,
+                      primary: Colors.white,
                       side: const BorderSide(
                         width: 1.0,
                         color: Colors.red,
                       ),
-                      backgroundColor: Colors.transparent,
+                      onPrimary: Colors.transparent,
                       shadowColor: Colors.transparent,
                     ),
                     onPressed: () {
@@ -452,8 +452,8 @@ class GetAdresswidget extends HookConsumerWidget {
                 height: 39.h,
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    foregroundColor: Colors.white,
-                    backgroundColor: const Color.fromARGB(255, 177, 19, 8),
+                    primary: Colors.white,
+                    onPrimary: const Color.fromARGB(255, 177, 19, 8),
                   ),
                   onPressed: () {
                     if (adress.value != null) {

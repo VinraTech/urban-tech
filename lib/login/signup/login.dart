@@ -220,8 +220,8 @@ class Screen1 extends State {
                               );
                               style:
                               ElevatedButton.styleFrom(
-                                  foregroundColor: Colors.transparent,
-                                  backgroundColor: Colors.transparent,
+                                  primary: Colors.transparent,
+                                  onPrimary: Colors.transparent,
                                   shadowColor: Colors.transparent // foreground
                                   );
                             },
@@ -278,11 +278,9 @@ class Screen1 extends State {
                                   }
                                 },
                                 style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.transparent,
-                                  disabledForegroundColor:
+                                  primary: Colors.transparent,
+                                  onSurface:
                                       Colors.transparent.withOpacity(0.38),
-                                  disabledBackgroundColor:
-                                      Colors.transparent.withOpacity(0.12),
                                   shadowColor: Colors.transparent,
                                 ),
                                 child: const Text('Login'),
@@ -300,8 +298,8 @@ class Screen1 extends State {
                             const Text('Dont have a account?'),
                             ElevatedButton(
                                 style: ElevatedButton.styleFrom(
-                                    foregroundColor: Colors.transparent,
-                                    backgroundColor: Colors.transparent,
+                                    primary: Colors.transparent,
+                                    onPrimary: Colors.transparent,
                                     shadowColor:
                                         Colors.transparent // foreground
                                     ),
